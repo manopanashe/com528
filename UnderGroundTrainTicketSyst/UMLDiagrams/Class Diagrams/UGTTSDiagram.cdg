@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="UGTTSDiagram">
+  <ClassDiagramComponents>
+    <Class name="JSP_donogenerate" package="" visibility="public" xPosition="388.0" yPosition="98.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Ticket" package="" visibility="public" xPosition="352.0" yPosition="547.0">
+      <Fields>
+        <Field name="startStation" type="String" visibility="private"/>
+        <Field name="cost" type="Double" visibility="private"/>
+        <Field name="encryptedHash" type="String" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Controller" package="" visibility="public" xPosition="212.0" yPosition="210.0">
+      <Fields>
+        <Field name="charge" type="Double" visibility="private"/>
+        <Field name="untitledField" type="Object" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="addTicketMachine" returnType="void" visibility="public"/>
+        <Method name="addGate" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="TicketMachine" package="" visibility="public" xPosition="461.0" yPosition="229.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="TotalPrice" returnType="void" visibility="public"/>
+        <Method name="untitledMethod" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Gate" package="" visibility="public" xPosition="750.0" yPosition="243.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
